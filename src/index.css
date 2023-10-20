@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Gotham-Light;
+  src: url('webfonts/Gotham-Light.otf');
+}
+@font-face {
+  font-family: Gotham-Book;
+  src: url('webfonts/Gotham-Book.otf');
+}
+@font-face {
+  font-family: Gotham-Medium;
+  src: url('webfonts/Gotham-Medium.otf');
+}
+@font-face {
+  font-family: Gotham-Bold;
+  src: url('webfonts/Gotham-Bold.otf');
+}
+@font-face {
+  font-family: Gotham-Black;
+  src: url('webfonts/Gotham-Black.otf');
+}
+
+body, html {
+  margin: 0;
+  font-family: Gotham-Book !important;
+  /*background-color: #f6f4ee;*/
+  color: #5e594d;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 76px !important;
+  line-height: 64px !important;
+  font-family: bodoni-pt-variable;
+  font-style: normal;
+  font-variation-settings: "opsz" 10, "wght" 700;
+}
+h2 {
+  font-size: 55px !important;
+  line-height: 59px !important;
+  font-family: bodoni-pt-variable;
+  font-style: normal;
+  font-variation-settings: "opsz" 10, "wght" 700;
+}
+h3 {
+  font-size: 48px !important;
+  line-height: 54px !important;
+  font-family: bodoni-pt-variable;
+  font-style: normal;
+  font-variation-settings: "opsz" 10, "wght" 700;
+}
+.underline{
+  border-bottom: 1px solid #333;
+}
+code {
+  font-family: Helvetica, sans-serif;
+}
