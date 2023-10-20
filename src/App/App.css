@@ -1,0 +1,111 @@
+.App {
+  text-align: left;
+  color: #5e594d;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0px auto;
+}
+
+.App-header {
+  display: block;
+  position: relative;
+}
+.content{
+  padding: 48px 0px;
+}
+/*---------- COLORS ----------*/
+.colorBlock{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 220px;
+  text-align: center;
+  font-size: 21px;
+  line-height: 1em;
+  }
+.colorText{
+  position: absolute;
+  display: block;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  color: #FFF;
+  }
+  .colorText.dark{
+    position: absolute;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    color: #333;
+    }
+.color1{
+  background-color: #fd1d86;
+  }
+.color2{
+  background-color: #f4f2ed;
+  }
+.color3{
+  background-color: #ada59b;
+  }
+.color4{
+  background-color: #7c7670;
+  }
+
+/*---------- TYPE ----------*/
+.bodoni{
+  font-family: bodoni-pt-variable,sans-serif;
+  font-style: normal;
+  line-height: 1em;
+  }
+.bodoni h3{
+  line-height: 2em;
+  }
+.bodoni p{
+  line-height: 1em;
+  font-size: 18px;
+  }
+.bodoni-weight-1{
+  font-variation-settings: "opsz" 10, "wght" 400;
+}
+.bodoni-weight-2{
+  font-variation-settings: "opsz" 10, "wght" 500;
+}
+.bodoni-weight-3{
+  font-variation-settings: "opsz" 10, "wght" 600;
+}
+.bodoni-weight-4{
+  font-variation-settings: "opsz" 10, "wght" 700;
+}
+.bodoni-weight-5{
+  font-variation-settings: "opsz" 10, "wght" 800;
+}
+
+.gotham{
+  font-family: Gotham-Book;
+  }
+  .gotham-weight-2{
+    font-family: Gotham-Light;
+  }
+  .gotham-weight-3{
+    font-family: Gotham-Book;
+  }
+  .gotham-weight-4{
+    font-family: Gotham-Medium;
+  }
+  .gotham-weight-5{
+    font-family: Gotham-Bold;
+  }
+  .gotham-weight-6{
+    font-family: Gotham-Black;
+  }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
